@@ -1,0 +1,19 @@
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.pyc
+
+# ── API keys — never commit ───────────────────────────────────
+*.env
+.env
+
+# ── AnyLogic autosave ─────────────────────────────────────────
+SupplyChainDigitalTwin.alp.autosave
+
+# ── Bridge runtime files ──────────────────────────────────────
+agent/state.json
+agent/response.json
+
+# ── AnyLogic database (auto-generated, not source code) ───────
+database/db.data
+database/db.lck
+database/db.log
