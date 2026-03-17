@@ -21,9 +21,11 @@ Parameter      &nbsp;&nbsp;&nbsp; || &nbsp;&nbsp;&nbsp;   Description &nbsp;&nbs
 - autonomyCondition  &nbsp;&nbsp;&nbsp; ||  &nbsp;&nbsp;&nbsp; Autonomy level   &nbsp;&nbsp;&nbsp; ||  &nbsp;&nbsp;&nbsp;  0 = Baseline, 1 = HITL, 2 = Full Auto  
 - replicationNumber  &nbsp;&nbsp;&nbsp; ||  &nbsp;&nbsp;&nbsp; Replication number  &nbsp;&nbsp;&nbsp; ||  &nbsp;&nbsp;&nbsp; 1 to 5
 
-### 5.  Set the autonomy condition
+### 5.  Enabling Agents & HITL checkbox in main 
 Condition  &nbsp;&nbsp;&nbsp; ||  &nbsp;&nbsp;&nbsp; agentEnabled  &nbsp;&nbsp;&nbsp; ||  &nbsp;&nbsp;&nbsp; HITL block in orderCycle   
-- A0 Baseline  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp; false on all tiers  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp;  Not applicable
+- A0 Baseline  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp; false on all tiers  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp; false on all tiers
+- A1 Baseline  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp; true on all tiers  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp;  true on all tiers
+- A2 Baseline  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp; true on all tiers  &nbsp;&nbsp;&nbsp;  ||  &nbsp;&nbsp;&nbsp;  false on all tiers
 
 ### 6. Run
 Click Run. The simulation runs for 100 weeks.
