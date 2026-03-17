@@ -17,3 +17,5 @@ agent/response.json
 database/db.data
 database/db.lck
 database/db.log
+
+results/
